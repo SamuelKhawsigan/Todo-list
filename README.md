@@ -1,18 +1,46 @@
+# Java CLI To-Do List Application
+
+![Java Version](https://img.shields.io/badge/Java-17%2B-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+A simple yet powerful command-line to-do list manager built with Java that saves your tasks between sessions.
+
+## Features
+
+✔️ **Add, view, and delete tasks**  
+✔️ **Persistent storage** (tasks save to file automatically)  
+✔️ **Clean console interface**  
+✔️ **Input validation**  
+✔️ **Zero dependencies** (pure Java)  
+
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### Prerequisites
+- Java JDK 17 or later
+- Git (optional)
 
-## Folder Structure
+### Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/SamuelKhawsigan/java-todo-list.git
+cd java-todo-list
 
-The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Compile and run:
+javac TodoList.java
+java TodoList
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
+ File Storage
+All tasks are automatically saved to tasks.txt in the same directory. The file is created automatically on first run.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Built With
+Java Standard Library
+
+Plain text file storage
+
+Acknowledgments
+Inspired by classic CLI applications
+
+
