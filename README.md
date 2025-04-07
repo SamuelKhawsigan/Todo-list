@@ -26,21 +26,11 @@ git clone https://github.com/SamuelKhawsigan/java-todo-list.git
 cd java-todo-list
 
 
+
 Compile and run:
 javac TodoList.java
 java TodoList
 
 
-
- File Storage
-All tasks are automatically saved to tasks.txt in the same directory. The file is created automatically on first run.
-
-Built With
-Java Standard Library
-
-Plain text file storage
-
-Acknowledgments
-Inspired by classic CLI applications
 
 
